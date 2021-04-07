@@ -24,9 +24,9 @@ class Home extends Component {
                         />
                         ))}
                     </Column>
-                    <Column className="col">
+                    {/* <Column className="col">
                         <Project />
-                    </Column>
+                    </Column> */}
                 </Row>
             </Container>
         )
