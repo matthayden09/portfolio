@@ -7,10 +7,14 @@ import {
 import Contact from "./pages/contact"
 import Home from "./pages/home"
 import Nav from "./components/nav"
+import Header from "./components/header"
+import Footer from "./components/footer"
+
 
 function App() {
   return (
     <Router>
+      <Header />
       <Nav />
       <Switch>
         <Route path="/contact">
@@ -20,6 +24,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
